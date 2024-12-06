@@ -1,10 +1,8 @@
 export type TaskT = {
 	id: string;
 	title: string;
-	link: string; //Link do favorito
-	excerpt: string; //trecho do favorito
-	// priority: string;
-	// deadline: number;
+	link: string; 
+	excerpt: string; 
 	image?: string;
 	alt?: string;
 	tags: { title: string; bg: string; text: string }[];
